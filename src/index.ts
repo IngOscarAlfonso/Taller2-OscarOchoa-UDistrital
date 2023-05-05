@@ -1,1 +1,3 @@
-console.log("Hola mundo");
+function guardarEstudiante(){
+    console.log("Hola mundo");
+}
