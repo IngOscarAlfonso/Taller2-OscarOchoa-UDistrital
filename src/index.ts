@@ -4,7 +4,6 @@ const btnguardar = document.getElementById('btn-guardar') as HTMLElement;
 
 btnguardar.addEventListener('click', (e) => {
     e.preventDefault();
-    console.log("Ingreso a la validación del Formulario");
     //Hago la validación del formulario
 
     //Obtener los datos de los input
@@ -17,6 +16,7 @@ btnguardar.addEventListener('click', (e) => {
     const linkedin = document.getElementById('linkedin') as HTMLInputElement;
     const github = document.getElementById('github') as HTMLInputElement;
 
-    console.log(tipoDocumento.value);
+    
+
 });
 
